@@ -1,21 +1,37 @@
 # SunDatePicker
 Date picker for Iranian calendar 
 
+[![](https://jitpack.io/v/zaaferani67/SunDatePicker.svg)](https://jitpack.io/#zaaferani67/SunDatePicker)
+
 ## Screenshots
 
 <img src="/Preview.jpg" width="400" height="400"/>
 
-<a href="https://play.google.com/store/apps/details?id=com.afkar.sundatepicker">
-  <img alt="Android app on Google Play" src="https://play.google.com/intl/en_us/badges/images/badge_new.png" />
-</a>
 
 ## Getting started
 
-### Dependency
+To get a Git project into your build:
+
+
+####Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+####Step 2. Add the dependency
 
 ```
 dependencies {
-    compile 'com.alirezaafkar:sundatepicker:2.0.4'
+        compile 'com.github.zaaferani67:SunDatePicker:v1.0.0'
 }
 ```
 
